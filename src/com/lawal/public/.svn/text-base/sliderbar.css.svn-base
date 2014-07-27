@@ -1,0 +1,80 @@
+
+/**
+ * Applied to VSliderBar.
+ */
+.gwt-VSliderBar-shell {
+  border: 2px solid #faf9f7;
+  border-right: 2px solid #848280;
+  border-bottom: 2px solid #848280;
+  background-color: #efebe7;
+  height: 34pt;
+  width: 50%;
+}
+.gwt-VSliderBar-shell .gwt-VSliderBar-line {
+  border: 1px solid black;
+  background-color: white;
+  height: 4px;
+  width: 95%;
+  top: 22pt;
+  overflow: hidden;
+}
+
+.gwt-VSliderBar-shell .gwt-VSliderBar-progress{
+  border: 1px solid #8ae234;
+  background-color: #8ae234;
+  height: 4px;
+  width: 95%;
+  top: 22pt;
+  overflow: hidden;
+}
+
+
+.gwt-VSliderBar-shell .gwt-VSliderBar-knob {
+  top: 14pt;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.gwt-VSliderBar-shell .gwt-VSliderBar-knob-inactive {
+  top: 14pt;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob.png);
+  background-position: -11px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+.gwt-VSliderBar-shell .gwt-VSliderBar-tick {
+  top: 12pt;
+  width: 1px;
+  height: 8pt;
+  background: black;
+  overflow: hidden;
+}
+
+
+
+
+
+.gwt-VSliderBar-shell .gwt-VSliderBar-label {
+  top: 2pt;
+  font-size: 8pt;
+  cursor: default;
+}
+.gwt-VSliderBar-shell-focused {
+}
+.gwt-VSliderBar-shell .gwt-VSliderBar-line-sliding {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}
